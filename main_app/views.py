@@ -28,5 +28,5 @@ def album_details(request, album_id):
       'artist_name': album['album'][0]['strArtist'],
       'genre': album['album'][0]['strGenre'],
       'sales': album['album'][0]['intSales'],
-      'album_description': album['album'][0]['strDescriptionEN']
+      'album_description': album['album'][0]['strDescriptionEN'],
     })
